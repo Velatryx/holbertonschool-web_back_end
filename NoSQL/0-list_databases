@@ -1,2 +1,2 @@
 // List all databases
-printjson(db.adminCommand('listDatabases'));
+show dbs
