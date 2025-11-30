@@ -1,2 +1,4 @@
 // Delete all documents where name = "Holberton school"
-db.school.remove({ name: "Holberton school" })
+printjson(
+    db.school.deleteMany({ name: "Holberton school" })
+)
